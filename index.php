@@ -6,7 +6,7 @@ error_reporting(0);
 if(!isset($_SESSION[adminid]))
 {
     header('login.php');
-    echo "<script>window.location='login.php';</script>";
+//     echo "<script>window.location='login.php';</script>";
 }
 include("dbconnection.php");
 include 'header.php'; 
